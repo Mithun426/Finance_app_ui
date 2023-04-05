@@ -156,15 +156,16 @@ class _HomeState extends State<Home> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Good afternoon',
+                          'Welcome...',
                           style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
                             color: Color.fromARGB(255, 224, 223, 223),
                           ),
                         ),
+                        SizedBox(height: 15,),
                         Text(
-                          'Enjelin Morgeana',
+                          '   USER',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 20,
